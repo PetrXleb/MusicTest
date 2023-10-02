@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+button {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 3px solid white;
+  color: white;
+  margin: 20px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  background-color: #112d49;
+  transition: 0.3s;
+}
+button:hover {
+  scale: 1.03;
+}
+
+.h5def {
+  color: rgb(255, 255, 255);
+  margin-bottom: 3px;
+  font-size: 24px;
+}
+
+.h5person {
+  color: rgb(217, 255, 0);
+}
+
+.headerTest {
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.variant {
+  margin: 15px;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #0c223a;
+  border-radius: 10px;
+  user-select: none;
+}
+
+.wrapVariant {
+  margin: 0 auto;
+  width: 30%;
+}
+
+.questionName {
+  user-select: none;
+
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.score {
+  margin: 50px;
+}
+
+.buttonFinish {
+  font-size: 20px;
+  padding: 0;
+}
+
+form {
+  padding: 50px;
+}
+
+form label {
+  font-size: 25px;
+}
+
+form input {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  padding: 10px;
+  outline: none;
+}
+
+.buttonForm {
+  margin-top: 80px;
+  width: 200px;
+  height: 60px;
+  padding: 0;
+}
+
+@media screen and (orientation: portrait) {
+  .wrapVariant {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
